@@ -5,10 +5,10 @@ This is a machine learning library developed by Parker Beckett for CS5350/6350 a
 
 *THE INSTRUCTIONS FOR HW 1 AND HW 2 WILL BE HERE SOON*
 
-For perceptron, please put the run.sh file and hw03_perceptron.py files in the same directory. Navigate to that directory and type ./run.sh <mode> <learning rate> <epochs> <training data> <testing data>
-Mode should be <st> for standard, <vo> for voted, or <av> for average. Anything else will not work
-Learning rate should be a number less than 1
-Epochs should be an integer
-Training and Testing data should be the filenames of the training and testing data respectively. 
+For perceptron, please put the run.sh file and hw03_perceptron.py files in the same directory. Navigate to that directory and type ./run.sh mode learning_rate epochs training_data testing_data
+Mode should be st for standard, vo for voted, or av for average. Anything else will not work
+Learning rate should be a number less than 1 but any number should not crash the program just result in poor results
+Epochs should be an integer, any decimals will crash the program
+Training and Testing data should be the filenames of the training and testing data respectively
 
 * this should work fine, but I have been locked out of the cade lab even after changing my password numerous times. I will try to test it on campus, but this is the same syntax as the hw1 which worked
